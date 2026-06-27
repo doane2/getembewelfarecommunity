@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 import { useState, useEffect } from 'react'
 import { useAuth }             from '../../../lib/auth'
 import { getStatementData }    from '../../../lib/api'
@@ -334,7 +334,7 @@ export default function StatementsPage() {
         doc.addImage(LOGO_BASE64, 'JPEG', pageW - margin - 12, pageH - 19, 12, 12)
       }
 
-      const filename = `CraterSDA_Statement_${member.memberNumber || 'Member'}_${fromYear}-${toYear}.pdf`
+      const filename = `GetembeSDA_Statement_${member.memberNumber || 'Member'}_${fromYear}-${toYear}.pdf`
       doc.save(filename)
       toast.success('Statement downloaded!')
     } catch (err) {

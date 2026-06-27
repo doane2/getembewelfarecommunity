@@ -1,4 +1,4 @@
-if (process.env.NODE_ENV !== "production") {
+﻿if (process.env.NODE_ENV !== "production") {
   require("dotenv").config();
 }
 
@@ -33,9 +33,9 @@ const app = express();
 // ── Flexible CORS ───────────────────────────────────────────────────────────
 const allowedOriginsRegex = [
   /localhost:3000$/,
-  /\.sdacrater\.org$/,
-  /\.cratersda\.co\.ke$/,
-  /cratersda\.co\.ke$/,
+  /\.sdaGetembe\.org$/,
+  /\.Getembesda\.co\.ke$/,
+  /Getembesda\.co\.ke$/,
   /\.vercel\.app$/,
   /\.onrender\.com$/, // Added to allow Render internal communication
 ];

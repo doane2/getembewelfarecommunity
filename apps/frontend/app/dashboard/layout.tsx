@@ -1,11 +1,11 @@
-'use client'
+﻿'use client'
 import { useEffect, useState, useCallback } from 'react'
 import { useRouter, usePathname } from 'next/navigation'
 import Link from 'next/link'
 import { useAuth } from '../../lib/auth'
 import api from '../../lib/api'
 
-const STORAGE_KEY = 'crater_read_announcements'
+const STORAGE_KEY = 'Getembe_read_announcements'
 function getUnreadCount(announcements: any[]): number {
   try {
     const read = new Set(JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]'))
@@ -135,7 +135,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
         <Link href="/" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', gap: 10 }}>
           <div style={{ width: 36, height: 36, borderRadius: 8, background: 'rgba(230,176,32,0.15)', border: '1.5px solid rgba(230,176,32,0.4)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 700, fontSize: 14, color: '#f5c842', flexShrink: 0 }}>CS</div>
           <div>
-            <div style={{ fontSize: 13, fontWeight: 700, color: '#fff', lineHeight: 1.1 }}>Crater SDA</div>
+            <div style={{ fontSize: 13, fontWeight: 700, color: '#fff', lineHeight: 1.1 }}>Getembe Welfare Community</div>
             <div style={{ fontSize: 10, color: '#f5c842', letterSpacing: '0.08em', textTransform: 'uppercase' }}>Welfare</div>
           </div>
         </Link>
@@ -196,7 +196,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
         </button>
         <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
           <div style={{ width: 30, height: 30, borderRadius: 7, background: 'rgba(230,176,32,0.15)', border: '1.5px solid rgba(230,176,32,0.4)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 700, fontSize: 12, color: '#f5c842' }}>CS</div>
-          <span style={{ fontSize: 13, fontWeight: 700, color: '#fff' }}>Crater SDA</span>
+          <span style={{ fontSize: 13, fontWeight: 700, color: '#fff' }}>Getembe Welfare Community</span>
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
           {unreadCount > 0 && (

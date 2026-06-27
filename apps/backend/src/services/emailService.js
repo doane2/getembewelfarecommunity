@@ -1,4 +1,4 @@
-const { Resend } = require("resend")
+﻿const { Resend } = require("resend")
 if (process.env.NODE_ENV !== "production") { require("dotenv").config() }
 
 // ─── Resend Client Setup ──────────────────────────────────────────────────────
@@ -6,12 +6,12 @@ if (process.env.NODE_ENV !== "production") { require("dotenv").config() }
 // Dashboard: https://resend.com/emails
 // To use a custom sender domain later:
 //   1. Resend dashboard → Domains → Add Domain → add DNS records
-//   2. Change FROM_ADDRESS below to e.g. "noreply@cratersda.co.ke"
+//   2. Change FROM_ADDRESS below to e.g. "noreply@Getembesda.co.ke"
 // ─────────────────────────────────────────────────────────────────────────────
 const resend = new Resend(process.env.RESEND_API_KEY)
 
 // While on Resend free tier without a verified domain, use this sender.
-// Once you verify cratersda.co.ke in Resend, change to: "Crater SDA Welfare <noreply@cratersda.co.ke>"
+// Once you verify Getembesda.co.ke in Resend, change to: "Getembe Welfare Community Welfare <noreply@Getembesda.co.ke>"
 const FROM_ADDRESS = "Getembe Welfare Community <onboarding@resend.dev>"
 
 // ─── Base Email Sender ────────────────────────────────────────────────────────
@@ -361,7 +361,7 @@ Getembe Welfare Community Team
       <div style="font-family:sans-serif;max-width:480px;margin:0 auto;padding:32px">
         <div style="background:#0f2040;border-radius:12px;padding:28px;text-align:center;margin-bottom:24px">
           <div style="font-size:32px;margin-bottom:8px">🔐</div>
-          <div style="font-family:Georgia,serif;font-size:22px;color:#f5c842;font-weight:700">Crater SDA Welfare</div>
+          <div style="font-family:Georgia,serif;font-size:22px;color:#f5c842;font-weight:700">Getembe Welfare Community Welfare</div>
           <div style="font-size:12px;color:rgba(255,255,255,0.5);margin-top:4px;letter-spacing:0.1em;text-transform:uppercase">Verification Code</div>
         </div>
         <p style="font-size:15px;color:#374151;margin-bottom:8px">Hello <strong>${fullName}</strong>,</p>
@@ -463,8 +463,8 @@ const sendBeneficiaryRequestProcessedSMS = async ({ phone, fullName, requestType
   if (!phone) return
   const approved = status === "APPROVED"
   const msg = approved
-    ? `Crater Welfare: Your beneficiary ${requestType.toLowerCase()} request has been approved. Log in to view your updated beneficiaries.`
-    : `Crater Welfare: Your beneficiary ${requestType.toLowerCase()} request was not approved. Log in for details.`
+    ? `Getembe Welfare: Your beneficiary ${requestType.toLowerCase()} request has been approved. Log in to view your updated beneficiaries.`
+    : `Getembe Welfare: Your beneficiary ${requestType.toLowerCase()} request was not approved. Log in for details.`
   console.log(`📱 [SMS stub] To: ${phone} | Message: ${msg}`)
 }
 
@@ -495,7 +495,7 @@ Getembe Welfare Community Team
       <div style="font-family:sans-serif;max-width:480px;margin:0 auto;padding:32px">
         <div style="background:#0f2040;border-radius:12px;padding:28px;text-align:center;margin-bottom:24px">
           <div style="font-size:32px;margin-bottom:8px">🔑</div>
-          <div style="font-family:Georgia,serif;font-size:22px;color:#f5c842;font-weight:700">Crater SDA Welfare</div>
+          <div style="font-family:Georgia,serif;font-size:22px;color:#f5c842;font-weight:700">Getembe Welfare Community Welfare</div>
           <div style="font-size:12px;color:rgba(255,255,255,0.5);margin-top:4px;letter-spacing:0.1em;text-transform:uppercase">Password Reset</div>
         </div>
         <p style="font-size:15px;color:#374151;margin-bottom:8px">Hello <strong>${fullName}</strong>,</p>
@@ -576,7 +576,7 @@ Getembe Welfare Community Team
       <div style="font-family:sans-serif;max-width:480px;margin:0 auto;padding:32px">
         <div style="background:#0f2040;border-radius:12px;padding:28px;text-align:center;margin-bottom:24px">
           <div style="font-size:32px;margin-bottom:8px">${config.icon}</div>
-          <div style="font-family:Georgia,serif;font-size:22px;color:#f5c842;font-weight:700">Crater SDA Welfare</div>
+          <div style="font-family:Georgia,serif;font-size:22px;color:#f5c842;font-weight:700">Getembe Welfare Community Welfare</div>
           <div style="font-size:12px;color:rgba(255,255,255,0.5);margin-top:4px;letter-spacing:0.1em;text-transform:uppercase">${config.heading}</div>
         </div>
         <p style="font-size:15px;color:#374151;margin-bottom:16px">Hello <strong>${fullName}</strong>,</p>

@@ -1,9 +1,9 @@
-// public/sw.js
+﻿// public/sw.js
 // ─────────────────────────────────────────────────────────────────────────────
-// Crater Welfare — Service Worker
+// Getembe Welfare — Service Worker
 // ─────────────────────────────────────────────────────────────────────────────
 
-const CACHE_NAME  = 'crater-welfare-v2'
+const CACHE_NAME  = 'Getembe-welfare-v2'
 const OFFLINE_URL = '/offline.html'
 
 // ── FIX: detect dev mode — never cache anything in development.
@@ -129,11 +129,11 @@ self.addEventListener('fetch', (event) => {
 // ── PUSH NOTIFICATIONS ────────────────────────────────────────────────────────
 self.addEventListener('push', (event) => {
   let payload = {
-    title: 'Crater Welfare',
+    title: 'Getembe Welfare',
     body:  'You have a new notification.',
     icon:  '/icons/icon-192.png',
     badge: '/icons/icon-96.png',
-    tag:   'crater-welfare-notif',
+    tag:   'Getembe-welfare-notif',
     data:  { url: '/dashboard' },
   }
 
@@ -226,7 +226,7 @@ async function retrySyncedPayments() {
 // ── IndexedDB helpers ─────────────────────────────────────────────────────────
 function openDB() {
   return new Promise((resolve, reject) => {
-    const req = indexedDB.open('crater-welfare-sync', 1)
+    const req = indexedDB.open('Getembe-welfare-sync', 1)
     req.onupgradeneeded = e => {
       const db = e.target.result
       if (!db.objectStoreNames.contains('payments')) {

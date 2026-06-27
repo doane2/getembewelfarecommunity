@@ -1,9 +1,9 @@
-'use client'
+﻿'use client'
 import { useEffect, useState, useCallback } from 'react'
 import api   from '../../../lib/api'
 import toast from 'react-hot-toast'
 
-const STORAGE_KEY = 'crater_read_announcements'
+const STORAGE_KEY = 'Getembe_read_announcements'
 
 function getReadIds(): Set<string> {
   try { return new Set(JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]')) }

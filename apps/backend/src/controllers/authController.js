@@ -86,7 +86,7 @@ exports.login = async (req, res) => {
 
       // Send OTP via SMS + email simultaneously
       const name    = user.fullName.split(" ")[0]
-      const message = `Your Crater SDA Welfare login OTP is: ${otp}. Valid for ${OTP_EXPIRY_MINS} minutes. Do not share this code.`
+      const message = `Your Getembe Welfare Community Welfare login OTP is: ${otp}. Valid for ${OTP_EXPIRY_MINS} minutes. Do not share this code.`
 
       Promise.allSettled([
         sendOtpEmail({ email: user.email, fullName: name, otp, expiryMins: OTP_EXPIRY_MINS }),
@@ -224,7 +224,7 @@ exports.resendOtp = async (req, res) => {
     })
 
     const name    = user.fullName.split(" ")[0]
-    const message = `Your new Crater SDA Welfare OTP is: ${otp}. Valid for ${OTP_EXPIRY_MINS} minutes.`
+    const message = `Your new Getembe Welfare Community Welfare OTP is: ${otp}. Valid for ${OTP_EXPIRY_MINS} minutes.`
 
     Promise.allSettled([
       sendOtpEmail({ email: user.email, fullName: name, otp, expiryMins: OTP_EXPIRY_MINS }),

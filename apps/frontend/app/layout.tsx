@@ -1,4 +1,4 @@
-import type { Metadata, Viewport } from 'next'
+﻿import type { Metadata, Viewport } from 'next'
 import './globals.css'
 import Providers from './providers'
 
@@ -12,12 +12,12 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title:       'Getembe Welfare Community',
-  description: 'Member welfare management — contributions, claims, loans and benefits for Crater SDA Church, Nakuru.',
+  description: 'Member welfare management — contributions, claims, loans and benefits for Getembe Welfare Community Church, Nakuru.',
   manifest:    '/manifest.json',
   appleWebApp: {
     capable:        true,
     statusBarStyle: 'black-translucent',
-    title:          'Crater Welfare',
+    title:          'Getembe Welfare',
     startupImage:   '/icons/apple-touch-icon.png',
   },
   icons: {
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     'mobile-web-app-capable':  'yes',
     'msapplication-TileColor': '#0f2040',
     'msapplication-TileImage': '/icons/icon-144.png',
-    'application-name':        'Crater Welfare',
+    'application-name':        'Getembe Welfare',
   },
 }
 

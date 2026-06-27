@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 import { useEffect, useState } from 'react'
 import { useAuth }             from '../../lib/auth'
 import api                     from '../../lib/api'
@@ -7,7 +7,7 @@ import Link from 'next/link'
 import toast from 'react-hot-toast'
 
 // ── Read/unread tracking (localStorage) ──────────────────────────────────────
-const STORAGE_KEY = 'crater_read_announcements'
+const STORAGE_KEY = 'Getembe_read_announcements'
 function getReadIds(): Set<string> {
   if (typeof window === 'undefined') return new Set()
   try { return new Set(JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]')) }

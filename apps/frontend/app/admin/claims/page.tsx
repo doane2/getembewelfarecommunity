@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 import { useEffect, useState, useCallback, useRef } from 'react'
 import { useSearchParams } from 'next/navigation'
 import api   from '../../../lib/api'
@@ -272,7 +272,7 @@ export default function AdminClaimsPage() {
       }
 
       const dateStr = now.toISOString().split('T')[0]
-      doc.save(`CraterSDA_ClaimsReport_${dateStr}.pdf`)
+      doc.save(`GetembeSDA_ClaimsReport_${dateStr}.pdf`)
       toast.success('Claims report downloaded!')
     } catch (err) {
       console.error(err)

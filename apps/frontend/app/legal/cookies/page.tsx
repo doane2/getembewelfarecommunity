@@ -70,7 +70,7 @@ export default function CookiesPage() {
           <Link href="/" style={{ display: 'flex', alignItems: 'center', gap: 10, textDecoration: 'none' }}>
             <Image src="/apple-touch-icon.png" alt="Logo" width={36} height={36} style={{ borderRadius: 8 }} />
             <div>
-              <div style={{ fontFamily: 'Georgia,serif', fontSize: 14, fontWeight: 700, color: '#fff', lineHeight: 1.1 }}>Crater SDA Welfare</div>
+              <div style={{ fontFamily: 'Georgia,serif', fontSize: 14, fontWeight: 700, color: '#fff', lineHeight: 1.1 }}>Getembe Welfare Community Welfare</div>
               <div style={{ fontSize: 10, color: '#f5c842', letterSpacing: '0.1em', textTransform: 'uppercase' }}>Nakuru, Kenya</div>
             </div>
           </Link>
@@ -206,7 +206,7 @@ export default function CookiesPage() {
         <div id="cs7" className="legal-section">
           <div className="legal-section-num">Section 7</div>
           <div className="legal-section-title">Contact</div>
-          <p className="legal-p">For questions about cookies or your data, contact your Society administrator or write to: <strong style={{color:'rgba(255,255,255,0.7)'}}>Getembe Welfare Community, Crater SDA Church, Nakuru, Kenya.</strong></p>
+          <p className="legal-p">For questions about cookies or your data, contact your Society administrator or write to: <strong style={{color:'rgba(255,255,255,0.7)'}}>Getembe Welfare Community, Getembe Welfare Community Church, Nakuru, Kenya.</strong></p>
           <p className="legal-p">Email: <a href="mailto:doanemusa561@gmail.com" style={{color:'#f5c842'}}>doanemusa561@gmail.com</a></p>
         </div>
       </div>

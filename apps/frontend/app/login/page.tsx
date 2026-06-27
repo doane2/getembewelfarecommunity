@@ -231,7 +231,7 @@ export default function LoginPage() {
         <Link href="/" style={{ textDecoration:'none', display:'inline-flex', alignItems:'center', gap:12, marginBottom:48 }}>
           <div style={{ width:44, height:44, borderRadius:10, background:'rgba(230,176,32,0.15)', border:'1.5px solid #e6b020', display:'flex', alignItems:'center', justifyContent:'center', fontFamily:'Georgia,serif', fontWeight:700, fontSize:17, color:'#f5c842', flexShrink:0 }}>CS</div>
           <div>
-            <div style={{ fontFamily:'Georgia,serif', fontSize:17, fontWeight:700, color:'#fff', lineHeight:1.1 }}>Crater SDA Welfare</div>
+            <div style={{ fontFamily:'Georgia,serif', fontSize:17, fontWeight:700, color:'#fff', lineHeight:1.1 }}>Getembe Welfare Community Welfare</div>
             <div style={{ fontSize:11, color:'#f5c842', letterSpacing:'0.1em', textTransform:'uppercase' }}>Member Portal</div>
           </div>
         </Link>

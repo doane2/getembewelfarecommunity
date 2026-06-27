@@ -61,10 +61,10 @@ const notifyDependentAdded = async ({ memberEmail, memberName, dependentName, de
       auth: { user: process.env.EMAIL_USER, pass: process.env.EMAIL_PASS },
     })
     await transporter.sendMail({
-      from:    `"Crater SDA Welfare" <${process.env.EMAIL_USER}>`,
+      from:    `"Getembe Welfare Community Welfare" <${process.env.EMAIL_USER}>`,
       to:      memberEmail,
       subject: `Dependent Added: ${dependentName}`,
-      text:    `Hello ${memberName},\n\nA dependent has been added to your welfare account:\n\nName: ${dependentName}\nType: ${DEPENDENT_RULES[dependentType]?.label || dependentType}\n\nIf this was not authorized, please contact your welfare administrator immediately.\n\nCrater SDA Welfare Team`,
+      text:    `Hello ${memberName},\n\nA dependent has been added to your welfare account:\n\nName: ${dependentName}\nType: ${DEPENDENT_RULES[dependentType]?.label || dependentType}\n\nIf this was not authorized, please contact your welfare administrator immediately.\n\nGetembe Welfare Community Welfare Team`,
     })
     console.log(`✅ Dependent notification sent to ${memberEmail}`)
   } catch (e) {

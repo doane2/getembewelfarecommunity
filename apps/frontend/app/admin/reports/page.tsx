@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 import { useEffect, useState, useCallback } from 'react'
 import api        from '../../../lib/api'
 import { useAuth } from '../../../lib/auth'
@@ -224,7 +224,7 @@ export default function AdminReportsPage() {
       })
 
       addFooter(doc, pageW, pageH)
-      doc.save(`CraterSDA_AnnualReport_${year}.pdf`)
+      doc.save(`GetembeSDA_AnnualReport_${year}.pdf`)
       toast.success('Annual report downloaded!')
     } catch (e) { console.error(e); toast.error('PDF generation failed') }
     finally { setExporting(false) }
@@ -288,7 +288,7 @@ export default function AdminReportsPage() {
         },
       })
       addFooter(doc, pageW, pageH)
-      doc.save(`CraterSDA_MemberDirectory_${year}.pdf`)
+      doc.save(`GetembeSDA_MemberDirectory_${year}.pdf`)
       toast.success('Member directory downloaded!')
     } catch (e) { console.error(e); toast.error('PDF failed') }
     finally { setExporting(false) }
@@ -339,7 +339,7 @@ export default function AdminReportsPage() {
         margin: { left: margin, right: margin },
       })
       addFooter(doc, pageW, pageH)
-      doc.save(`CraterSDA_FinancialReport_${year}.pdf`)
+      doc.save(`GetembeSDA_FinancialReport_${year}.pdf`)
       toast.success('Financial report downloaded!')
     } catch (e) { console.error(e); toast.error('PDF failed') }
     finally { setExporting(false) }
