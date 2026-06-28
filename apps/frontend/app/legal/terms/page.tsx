@@ -13,7 +13,7 @@ const sections = [
   {
     id: '2', title: 'Eligibility & Membership',
     items: [
-      'The Platform is exclusively available to active members of Getembe Seventh Day Adventist Church Nakuru, registered beneficiaries of enrolled members, and authorised administrative staff (Super Admin, Treasurer, Secretary).',
+      'The Platform is exclusively available to active members of Getembe Welfare Community, Nakuru, registered beneficiaries of enrolled members, and authorised administrative staff (Super Admin, Treasurer, Secretary).',
       'Member accounts are created solely by authorised administrators. Self-registration is not permitted.',
       'You must be at least 18 years of age to hold a principal member account.',
       "Membership is subject to the Society's constitution and by-laws, which take precedence over these Terms in all matters of governance.",

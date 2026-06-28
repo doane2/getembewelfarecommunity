@@ -58,7 +58,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
             <div style={{ width:38, height:38, borderRadius:9, background:'rgba(230,176,32,0.15)', border:'1.5px solid rgba(230,176,32,0.4)', display:'flex', alignItems:'center', justifyContent:'center', fontWeight:700, fontSize:14, color:'#f5c842' }}>CS</div>
             <div>
               <div style={{ fontSize:13, fontWeight:700, color:'#fff', lineHeight:1.1 }}>Getembe Welfare Community</div>
-              <div style={{ fontSize:10, color:'rgba(255,255,255,0.4)', letterSpacing:'0.08em', textTransform:'uppercase' }}>Welfare Community</div>
+              <div style={{ fontSize:10, color:'rgba(255,255,255,0.4)', letterSpacing:'0.08em', textTransform:'uppercase' }}>Est. 2016</div>
             </div>
           </div>
           <div style={{ display:'inline-flex', alignItems:'center', gap:6, padding:'4px 12px', borderRadius:99, background:rc.bg, border:`1px solid ${rc.color}40` }}>

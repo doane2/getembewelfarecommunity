@@ -316,7 +316,7 @@ export default function LandingPage() {
             <Image src="/apple-touch-icon.png" alt="Getembe Welfare Community Logo" width={42} height={42} style={{ borderRadius: 10, objectFit: 'contain' }} />
             <div>
               <div style={{ fontFamily: 'Georgia,serif', fontWeight: 700, fontSize: 16, color: '#fff', lineHeight: 1.1 }}>Getembe Welfare Community</div>
-              <div style={{ fontSize: 11, color: '#f5c842', letterSpacing: '0.1em', textTransform: 'uppercase' }}>Welfare Community</div>
+              <div style={{ fontSize: 11, color: '#f5c842', letterSpacing: '0.1em', textTransform: 'uppercase' }}>Est. 2016</div>
             </div>
           </div>
           <nav className="nav-links">
@@ -360,7 +360,7 @@ export default function LandingPage() {
               </h1>
               <p style={{ fontSize: 16, color: 'rgba(255,255,255,0.7)', lineHeight: 1.8, marginBottom: 36, maxWidth: 480 }}>
                 Getembe Welfare Community unites members through mutual financial support —
-                death benefits, educational support, medical assistance for families in Getembe Seventh Day Adventist Church.
+                death benefits, educational support, medical assistance for families in Getembe Welfare Community.
               </p>
               <a href="#about" style={{ display: 'inline-flex', alignItems: 'center', gap: 8, background: 'rgba(255,255,255,0.08)', color: '#fff', padding: '13px 28px', borderRadius: 10, fontSize: 15, fontWeight: 500, textDecoration: 'none', border: '1px solid rgba(255,255,255,0.15)' }}>
                 Learn More <ChevronDown size={16} />
@@ -411,7 +411,7 @@ export default function LandingPage() {
               <div style={{ fontSize: 12, fontWeight: 600, color: '#e6b020', letterSpacing: '0.12em', textTransform: 'uppercase', marginBottom: 14 }}>About Us</div>
               <h2 style={{ fontFamily: 'Georgia,serif', fontSize: 36, fontWeight: 700, color: '#0f2040', lineHeight: 1.2, marginBottom: 20 }}>A Community Built on Trust and Solidarity</h2>
               <p style={{ fontSize: 15, color: '#475569', lineHeight: 1.8, marginBottom: 16 }}>
-                Founded in 2016, Getembe Welfare Community has served families across Getembe Seventh Day Adventist Church with the belief that collective strength lifts every individual. We are member-owned, member-governed and driven by the values of our faith community.
+                Founded in 2016, Getembe Welfare Community has served families across Nakuru with the belief that collective strength lifts every individual. We are member-owned, member-governed and driven by the values of our faith community.
               </p>
               <p style={{ fontSize: 15, color: '#475569', lineHeight: 1.8 }}>
                 Our digital platform brings transparency, speed and accountability to every contribution, claim and benefit — putting members in control of their welfare journey.
@@ -502,7 +502,7 @@ export default function LandingPage() {
               <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 18 }}>
                 <Image src="/apple-touch-icon.png" alt="Getembe Welfare Community Logo" width={40} height={40} style={{ borderRadius: 9, objectFit: 'contain' }} />
                 <div>
-                  <div style={{ fontFamily: 'Georgia,serif', fontWeight: 700, fontSize: 15, color: '#fff' }}>Getembe Welfare Community Welfare</div>
+                  <div style={{ fontFamily: 'Georgia,serif', fontWeight: 700, fontSize: 15, color: '#fff', lineHeight: 1.1 }}>Getembe<br/>Welfare Community</div>
                   <div style={{ fontSize: 11, color: '#f5c842' }}>Nakuru, Kenya</div>
                 </div>
               </div>
