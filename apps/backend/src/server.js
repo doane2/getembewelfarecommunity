@@ -72,7 +72,7 @@ app.use("/api/mpesa/c2b-validation", mpesaRawBody, parseMpesaBody);
 app.use(express.json());
 
 // ── Root Route ──────────────────────────────────────────────────────────────
-app.get("/", (req, res) => res.send("SDA Welfare API Online"));
+app.get("/", (req, res) => res.send("Getembe Welfare Community API Online"));
 
 // ── API Route Mapping ────────────────────────────────────────────────────────
 app.use("/api/auth", require("./routes/auth"));

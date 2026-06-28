@@ -316,7 +316,7 @@ export default function LandingPage() {
             <Image src="/apple-touch-icon.png" alt="Getembe Welfare Community Logo" width={42} height={42} style={{ borderRadius: 10, objectFit: 'contain' }} />
             <div>
               <div style={{ fontFamily: 'Georgia,serif', fontWeight: 700, fontSize: 16, color: '#fff', lineHeight: 1.1 }}>Getembe Welfare Community</div>
-              <div style={{ fontSize: 11, color: '#f5c842', letterSpacing: '0.1em', textTransform: 'uppercase' }}>Welfare Society</div>
+              <div style={{ fontSize: 11, color: '#f5c842', letterSpacing: '0.1em', textTransform: 'uppercase' }}>Welfare Community</div>
             </div>
           </div>
           <nav className="nav-links">

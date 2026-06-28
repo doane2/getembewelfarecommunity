@@ -224,7 +224,7 @@ export default function AdminReportsPage() {
       })
 
       addFooter(doc, pageW, pageH)
-      doc.save(`GetembeSDA_AnnualReport_${year}.pdf`)
+      doc.save(`GatembeWelfare_AnnualReport_${year}.pdf`)
       toast.success('Annual report downloaded!')
     } catch (e) { console.error(e); toast.error('PDF generation failed') }
     finally { setExporting(false) }
@@ -288,7 +288,7 @@ export default function AdminReportsPage() {
         },
       })
       addFooter(doc, pageW, pageH)
-      doc.save(`GetembeSDA_MemberDirectory_${year}.pdf`)
+      doc.save(`GatembeWelfare_MemberDirectory_${year}.pdf`)
       toast.success('Member directory downloaded!')
     } catch (e) { console.error(e); toast.error('PDF failed') }
     finally { setExporting(false) }
@@ -339,7 +339,7 @@ export default function AdminReportsPage() {
         margin: { left: margin, right: margin },
       })
       addFooter(doc, pageW, pageH)
-      doc.save(`GetembeSDA_FinancialReport_${year}.pdf`)
+      doc.save(`GatembeWelfare_FinancialReport_${year}.pdf`)
       toast.success('Financial report downloaded!')
     } catch (e) { console.error(e); toast.error('PDF failed') }
     finally { setExporting(false) }

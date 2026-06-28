@@ -208,7 +208,7 @@ export default function AdminAuditLogsPage() {
         doc.addImage(LOGO_BASE64, 'JPEG', pageW-margin-12, pageH-19, 12, 12)
       }
 
-      doc.save(`GetembeSDA_AuditLog_${now.toISOString().split('T')[0]}.pdf`)
+      doc.save(`GatembeWelfare_AuditLog_${now.toISOString().split('T')[0]}.pdf`)
       toast.success('PDF audit log downloaded!')
     } catch (err) {
       console.error(err); toast.error('Failed to generate PDF. Please try again.')

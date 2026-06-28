@@ -9,11 +9,11 @@
   ],
   "scripts": {
     "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
-    "dev:frontend": "npm run dev --workspace=Getembe-sda-welfare-web",
+    "dev:frontend": "npm run dev --workspace=getembe-welfare-web",
     "dev:backend": "cd apps/backend && npm run dev",
-    "build": "npm run build --workspace=Getembe-sda-welfare-web",
-    "build:frontend": "npm run build --workspace=Getembe-sda-welfare-web",
-    "start:frontend": "npm run start --workspace=Getembe-sda-welfare-web",
+    "build": "npm run build --workspace=getembe-welfare-web",
+    "build:frontend": "npm run build --workspace=getembe-welfare-web",
+    "start:frontend": "npm run start --workspace=getembe-welfare-web",
     "start:backend": "npm run start --workspace=backend",
     "clean": "rmdir /s /q node_modules & rmdir /s /q apps\\frontend\\node_modules & rmdir /s /q apps\\backend\\node_modules & rmdir /s /q apps\\frontend\\.next"
   },
