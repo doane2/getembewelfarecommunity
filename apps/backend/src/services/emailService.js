@@ -1,4 +1,4 @@
-﻿const { Resend } = require("resend")
+const { Resend } = require("resend")
 if (process.env.NODE_ENV !== "production") { require("dotenv").config() }
 
 // ─── Resend Client Setup ──────────────────────────────────────────────────────
